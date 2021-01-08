@@ -3,7 +3,6 @@
     box-sizing:border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:0;
-    border-radius:10px;
   }
   h1 {
     margin: 15px;
@@ -14,43 +13,49 @@
 
   .row {
       width: 100%;
-  }
+      padding:10px;
+    }
 
   .box {
     float:left;
-    position: relative;
   }
 
   .menu {
-    border: 1px solid black;
+    border: solid black;
     background-color: gray;
-    padding:10px;
-    padding-top: 60px;
     margin: 10px;
     position: relative;
-    min-height: 130px;
+    min-height: 160px;
   }
+
 
   .dish {
     position: absolute;
-    top:10px;
-    right:10px;
-    border: black solid;
+    right:0px;
+    border: 2px solid black;
     padding:5px;
     font-size: 120%;
+    max-width: 200px;
+    max-height:65px;
+    overflow: hidden;
     text-align: center;
   }
 
-  #p1 {
+  #dish1 {
     background-color: white;
   }
 
-  #p2 {
+  #dish2 {
     background-color: orange;
   }
 
-  #p3 {
+  #dish3 {
     background-color: green;
+  }
+
+  .description {
+    padding:10px;
+    padding-top:65px
   }
 
   
