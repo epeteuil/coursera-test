@@ -1,5 +1,11 @@
 /* NAV BAR  */
 
+.navbar-brand {
+    margin-top: 10px;;
+    margin-bottom :20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 .navbar-nav {
     background-color: palegoldenrod ;
 }
@@ -8,11 +14,13 @@
     border: solid rgb(37, 34, 34);
 }
 
-
+.row{
+    margin:auto
+}
 .row div {
     background-color: gray;
     padding: 20px;
-    margin: 20px;
+    margin:20px auto 20px;
 }
 
 section :nth-child(2n){
