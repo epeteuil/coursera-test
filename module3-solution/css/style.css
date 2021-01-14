@@ -1,0 +1,20 @@
+/* NAV BAR  */
+
+.navbar-nav {
+    background-color: palegoldenrod ;
+}
+
+.nav-item{
+    border: solid rgb(37, 34, 34);
+}
+
+
+.row div {
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+section :nth-child(2n){
+    height: 800px;
+}
